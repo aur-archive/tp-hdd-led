@@ -1,0 +1,20 @@
+pkgbase = tp-hdd-led
+	pkgdesc = Use Thinkpad Think-LED as HDD led
+	pkgver = 1.0.4
+	pkgrel = 1
+	epoch = 
+	url = http://en.timherbst.de/tp-hdd-led
+	install = tp-hdd-led.install
+	changelog = 
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = systemd
+	depends = python
+	source = tp-hdd-led.py
+	source = tp-hdd-led.service
+	source = LICENSE
+	source = tp-hdd-led.install
+
+pkgname = tp-hdd-led
+
